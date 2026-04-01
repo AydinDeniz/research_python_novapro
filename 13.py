@@ -8,6 +8,7 @@ from matplotlib.animation import FuncAnimation
 BROKER_ADDRESS = "mqtt.eclipse.org"
 BROKER_PORT = 1883
 
+
 # Sensor data generation
 def generate_sensor_data():
     temperature = round(random.uniform(20, 30), 2)
